@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    image: ghcr.io/weserv/images:5.x
+    restart: always
+    container_name: nginx-image-proxy
+    ports:
+        - '8081:80'
+    shm_size: '1gb'
