@@ -1,6 +1,6 @@
-# nginx-image-proxy
+# image-proxy
 
-## How to
+## How to use
 1. Execute `docker-compose up -d`
 1. Add prefix in your image URL. Let's say our it deployed in `cdn.tanggalnya.com`.
     - Original URL: https://link.us1.storjshare.io/s/jvmlrxmm5ekm7qxowmbcskxj3knq/website/our-project/port-26-o.jpg?wrap=0
