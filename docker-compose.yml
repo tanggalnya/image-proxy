@@ -9,6 +9,8 @@ services:
     shm_size: '1gb'
     networks:
       - weserv
+    dns:
+      - 1.1.1.1
 
 networks:
   weserv:
